@@ -19,7 +19,7 @@ export function Appbar({ showThemeSwitch = true }) {
       <div
         className={`flex flex-col justify-center text-lg font-bold ${showThemeSwitch ? "" : "text-white"}`}
       >
-        Muzer
+        Synmu
       </div>
       <div className="flex items-center gap-2">
         {showThemeSwitch && <ThemeSwitcher />}
